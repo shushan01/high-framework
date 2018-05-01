@@ -31,7 +31,7 @@
                 collapse: false,
                 items: [
                     {
-                        icon: 'el-icon-setting',
+                        icon: 'ye-icon-wxbzhuye',
                         index: 'dashboard',
                         title: '系统首页'
                     },
@@ -79,9 +79,9 @@
                         title: '拖拽列表'
                     },
                     {
-                        icon: 'el-icon-warning',
-                        index: 'permission',
-                        title: '权限测试'
+                        icon: 'el-icon-setting',
+                        index: 'management',
+                        title: '系统管理'
                     },
                     {
                         icon: 'el-icon-error',

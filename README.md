@@ -123,9 +123,9 @@ import 'element-ui/lib/theme-default/index.css';    // 默认主题
 第二步：打开 src/App.vue 文件，找到 style 标签引入样式的地方，切换成浅绿色主题。
 
 ```javascript
-@import "../static/css/main.css";
-@import "../static/css/color-dark.css";     /*深色主题*/
-/*@import "../static/css/theme-green/color-green.css";   !*浅绿色主题*!*/
+@import "../static/css/main.less";
+@import "../static/css/color-dark.less";     /*深色主题*/
+/*@import "../static/css/theme-green/color-green.less";   !*浅绿色主题*!*/
 ```
 
 第三步：打开 src/components/common/Sidebar.vue 文件，找到 el-menu 标签，把 background-color/text-color/active-text-color 属性去掉即可。
